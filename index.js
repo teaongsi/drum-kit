@@ -3,8 +3,7 @@ for(var i=0;i<numberOfDrums;i++){
     document.querySelectorAll("button")[i].addEventListener("click",function (){
         var whichButton=this.innerHTML;
         sound(whichButton);
-        buttonAnimation(whichButton);
-        
+        buttonAnimation(whichButton);    
     });
 }
 
